@@ -60,21 +60,26 @@ export const toolsSidebar = [
             title: "Overview",
           },
           {
+            type: "link",
+            path: "/js-sdk/auth/overview",
+            title: "Authentication",
+          },
+          {
             type: "separator",
           },
           {
             type: "category",
-            title: "Auth",
+            title: "auth Methods",
             autogenerate_path: "/references/js_sdk/auth/Auth/methods",
           },
           {
             type: "category",
-            title: "Store",
+            title: "store Methods",
             autogenerate_path: "/references/js_sdk/store/Store/properties",
           },
           {
             type: "category",
-            title: "Admin",
+            title: "admin Methods",
             autogenerate_path: "/references/js_sdk/admin/Admin/properties",
           },
         ],
@@ -114,6 +119,13 @@ export const toolsSidebar = [
                 title: "Revalidate Cache",
               },
             ],
+          },
+          {
+            type: "category",
+            title: "Tutorials",
+            autogenerate_tags: "nextjs+tutorial",
+            autogenerate_as_ref: true,
+            sort_sidebar: "alphabetize",
           },
         ],
       },
